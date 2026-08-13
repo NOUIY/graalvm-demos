@@ -37,4 +37,4 @@ jobs:
           output=$(./target/micronaut-bytebuddy-dynamic conference)
           echo "$output"
           grep -Fq 'Generated class: demo.crema.generated.ConferencePlugin1' <<< "$output"
-          grep -Fq "hello from Alina at Devoxx London! Let's talk about what's latest and greatest in GraalVM :)" <<< "$output"
+          grep -Fq "hello from Duke at Devoxx London! Let's talk about what's latest and greatest in GraalVM :)" <<< "$output"
